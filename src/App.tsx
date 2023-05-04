@@ -1,14 +1,13 @@
-import React from 'react';
+import { Hello } from './components/Hello';
 import './App.css';
+import { Form } from './components/Form';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-
+        <Hello firstName='Anthony' lastName='Murphy'/>
+        <Form />
       </header>
     </div>
   );
