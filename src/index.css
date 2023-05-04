@@ -11,7 +11,7 @@ code {
     monospace;
 }
 
-.form {
-  text-align: center;
-  align-content: center;
+Form {
+  display: flex;
+  flex-direction: column;
 }

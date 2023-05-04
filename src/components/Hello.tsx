@@ -1,8 +1,4 @@
-interface HelloProps {
-    firstName: string
-    lastName: string
-    age?: number
-}
+import { HelloProps } from "../types/FormDataTypes"
 
 export const Hello = ({firstName, lastName, age}: HelloProps) => {
     return(
